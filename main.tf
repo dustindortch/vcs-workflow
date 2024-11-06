@@ -14,7 +14,7 @@ provider "local" {
 variable "product" {
   type        = string
   description = "A HashiCorp product name"
-  default     = "Terraform"
+  default     = "X - Terraform"
 }
 
 resource "local_file" "tf_file" {
